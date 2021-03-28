@@ -42,7 +42,8 @@ Sub annotateBopomofo()
         Or Selection.Characters(i).text = "¡C" And Selection.Characters(i - 1).text = "¡C" _
         Or Selection.Characters(i).text = "¡u" And Selection.Characters(i - 1).text = "¡u" _
         Or Selection.Characters(i).text = "¡v" And Selection.Characters(i - 1).text = "¡v" _
-        Or Selection.Characters(i).text = "¡H" And Selection.Characters(i - 1).text = "¡H" Then
+        Or Selection.Characters(i).text = "¡H" And Selection.Characters(i - 1).text = "¡H" _
+        Or Selection.Characters(i).text = "¡I" And Selection.Characters(i - 1).text = "¡I" Then
 
             Selection.Characters(i).Delete
 
